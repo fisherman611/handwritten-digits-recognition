@@ -2,12 +2,32 @@
 ## **Description**
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSRYuCQgVOstpubsE4sy7oJJDxCaLizGOSg&s)
 
-This project aims to classify handwritten digits from the MNIST dataset. It will test different machine learning algorithms, such as Neural Networks, Support Vector Machines, and K-nearest neighbors, to see which one performs best at recognizing the digits in the images. Here is the result of each model: https://drive.google.com/file/d/1xBeDRDks7EBTjflbYL7hXEvMZdwMm_io/view?usp=sharing
+This project focuses on classifying handwritten digits from the [MNIST dataset](https://www.kaggle.com/competitions/digit-recognizer/data). It explores and compares the performance of various machine learning algorithms, including Neural Networks, Support Vector Machines (SVM), and K-Nearest Neighbors (KNN), to determine the most effective method for recognizing digits in images. 
+
+You can find the detailed results of each model here: [Google Drive link](https://drive.google.com/file/d/1xBeDRDks7EBTjflbYL7hXEvMZdwMm_io/view?usp=sharing)
 
 ## **Features**
-* Normalize the image data to make it suitable for the algorithm.
-* Training and evaluation of machine learning models for handwritten digit recognition 
-* Integration with a user interface for easy interaction.
+* Data Preprocessing: Normalize image data to ensure compatibility with machine learning algorithms.
+
+* Model Training and Evaluation: Train and evaluate various models, including Neural Networks, SVM, and KNN, for handwritten digit recognition.
+
+* User Interface: Integrate a user-friendly interface for easy interaction and testing.
+
+## **Installation**
+Clone the repository:
+   ```bash
+   git clone https://github.com/fisherman611/handwritten-digit-recognition.git
+   ```
+Navigate to the project directory:
+   ```bash
+   cd handwritten-digit-recognition
+   ```
+(Optional) Install the required dependencies: 
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ## **Contributing**
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
