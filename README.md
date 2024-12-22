@@ -4,8 +4,7 @@
 
 This project focuses on classifying handwritten digits from the [MNIST dataset](https://www.kaggle.com/competitions/digit-recognizer/data). It explores and compares the performance of various machine learning algorithms, including Neural Networks, Support Vector Machines (SVM), and K-Nearest Neighbors (KNN), to determine the most effective method for recognizing digits in images. 
 
-You can find the detailed results of each model here: [Google Drive link](https://drive.google.com/file/d/1xBeDRDks7EBTjflbYL7hXEvMZdwMm_io/view?usp=sharing)
-
+Download the checkpoint for each model from this [Google Drive link](https://drive.google.com/file/d/1xBeDRDks7EBTjflbYL7hXEvMZdwMm_io/view?usp=sharing) and place it in the project folder.
 ## **Features**
 * Data Preprocessing: Normalize image data to ensure compatibility with machine learning algorithms.
 
@@ -18,16 +17,19 @@ Clone the repository:
    ```bash
    git clone https://github.com/fisherman611/handwritten-digit-recognition.git
    ```
-Navigate to the project directory:
-   ```bash
-   cd handwritten-digit-recognition
-   ```
-(Optional) Install the required dependencies: 
-
+(Optional) Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
+Navigate to the project directory:
+   ```bash
+   cd handwritten-digit-recognition
+   ```
+Run the GUI on CMD (ensure that your gradio version is 3.0.0, below is an example with python 3.11):
+```bash
+py -3.11 -m GUI.py
+```
 
 ## **Contributing**
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
