@@ -15,7 +15,7 @@ Download the checkpoint for each model from this [Google Drive link](https://dri
 ## **Installation**
 Clone the repository:
    ```bash
-   git clone https://github.com/fisherman611/handwritten-digit-recognition.git
+   git clone https://github.com/fisherman611/handwritten-digits-recognition.git
    ```
 (Optional) Install the required dependencies:
 ```bash
