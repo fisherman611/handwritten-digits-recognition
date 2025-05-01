@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 Navigate to the project directory:
    ```bash
-   cd handwritten-digit-recognition
+   cd handwritten-digits-recognition
    ```
 Run the GUI on CMD (ensure that your gradio version is 3.0.0, below is an example with python 3.11):
 ```bash
