@@ -7,3 +7,4 @@ keras
 scikeras
 Pillow
 gradio==3.0.0
+tensorflow
